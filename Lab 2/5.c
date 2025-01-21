@@ -8,21 +8,22 @@ int main(){
 	scanf("%d", &N);
 	int temp;
 	int missingNumber = 0;
-	for (int i = 0; i < N; i++){
+	int counter = 0;
+	for (int i = 0; i <= N; i++){
 		scanf("%d", &temp);
+		
 		if (temp == (previousNumber+1)){
 			previousNumber = temp;
-			continue;
 		}else{
 			missingNumber = previousNumber+1;
-			i++;
+			N--;
 			
 		}
+	}
 	if(missingNumber != 0){
 		printf("%d", missingNumber);
 	}else{
 		printf("There is no missing number");
-	}
 	}
 	return 0;
 }
