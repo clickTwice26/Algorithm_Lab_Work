@@ -12,7 +12,7 @@ int main(){
 	int y;
 	for(int i = 0; i < numberOfTestCase; i++){
 		x = testCases[i];
-		for(int j=i+1; j <numberOfTestCase; j++){
+		for(int j=i+1; j < numberOfTestCase; j++){
 			y = testCases[j];
 			if((x+y) == targetSum){
 				printf("(%d, %d)\n", x, y);

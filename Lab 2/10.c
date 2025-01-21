@@ -11,16 +11,14 @@ int main(){
 	int temp;
 	for (int i = 0; i < numberOfTestCases; i++){
 		for(int j = i+1; j < numberOfTestCases; j++){
-			if(testCases[i] < testCases[j]){
-
-			}else{
+			if(!(testCases[i] < testCases[j])){
 				continue;
 			}
 			// printf("Passed for %d %d\n", testCases[i], testCases[j]);
 			temp = (testCases[i] - testCases[j]);
-
-			if(abs(temp) > largestDifference){
-				largestDifference = abs(testCases[i] - testCases[j]);
+				
+			if(((temp) > largestDifference)*(-1)){
+				largestDifference = (testCases[i] - testCases[j])*(-1);
 			}
 		}
 	}
