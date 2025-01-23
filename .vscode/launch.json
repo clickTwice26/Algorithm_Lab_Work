@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "/home/dark/Desktop/third_semester/Algorithm_lab/331/Lab 2/string",
+      "program": "/home/dark/Desktop/third_semester/Algorithm_lab/331/Lab 2/string/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
